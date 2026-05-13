@@ -1,0 +1,20 @@
+{
+  "name": "skynet-protocol",
+  "version": "1.0.0",
+  "description": "Inter-Overmind communication network — ASI AI Team ecosystem",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "setup": "node setup.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.0",
+    "better-sqlite3": "^9.6.0",
+    "express": "^4.19.0",
+    "zod": "^3.23.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
